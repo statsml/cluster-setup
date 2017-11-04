@@ -1,6 +1,6 @@
 # cluster-setup
 
-
+When you install cuda GPU library and tensorflow, please check wheather they are compatible. 
 
 SSH login cluser: 
 
