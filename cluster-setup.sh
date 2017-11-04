@@ -1,8 +1,8 @@
 #!/bin/bash
-
+# To run the script, you need the root authorization.
 #cuda-9.0 is not campatiable with the current tensorflow version
 #we need install cuda-8.0 and cuda-6.0 for cuda8
-#pelase check installing information and uninstall cuda-9.0
+#pelase check installing information and uninstall cuda-9.0 if you install cuda9.0
 #   https://gist.github.com/mjdietzx/0ff77af5ae60622ce6ed8c4d9b419f45
 #   https://devtalk.nvidia.com/default/topic/1024342/cuda-setup-and-installation/unable-to-uninstall-cuda-9-0-completely-and-install-8-0-instead/
 #   https://developer.nvidia.com/cuda-toolkit-archive (cudn history source)
