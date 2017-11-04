@@ -67,6 +67,4 @@ echo "c.NotebookApp.ip = '*'" >> /root/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.open_browser = False" >> /root/.jupyter/jupyter_notebook_config.py
 python2 -m ipykernel install
 
-# clean up
-cd /home
-rm -r ./downloads
+
