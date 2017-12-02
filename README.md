@@ -53,8 +53,9 @@ export MPLBACKEND="agg"
 ```
 
 ## Authors
-[Jun Lu](https://github.com/junlulocky)
-[Wei Ma](https://github.com/Marvinmw)
+
+- [Jun Lu](https://github.com/junlulocky)
+- [Wei Ma](https://github.com/Marvinmw)
 
 ## References
 - CS231n: Google Cloud Tutorial. [link](http://cs231n.github.io/gce-tutorial/)
