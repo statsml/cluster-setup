@@ -52,6 +52,13 @@ You want to save image, but you may get `_tkinter.TclError: no display name and 
 export MPLBACKEND="agg"
 ```
 
+## Authors
+[Jun Lu](https://github.com/junlulocky)
+[Wei Ma](https://github.com/Marvinmw)
+
+## References
+- CS231n: Google Cloud Tutorial. [link](http://cs231n.github.io/gce-tutorial/)
+
 
 
 
