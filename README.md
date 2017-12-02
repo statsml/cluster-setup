@@ -24,7 +24,7 @@ Setup from the scrtip
 . `cluster-setup.sh`
 ```
 
-## ssh tricks
+## SSH tricks & FAQ
 
 ### 1. screen
 
