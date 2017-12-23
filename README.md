@@ -42,6 +42,11 @@ screen -S `your-preferred-screen-name`
 screen -r `your-preferred-screen-name`
 ```
 
+- Kill a screen
+```
+screen -S  `your-preferred-screen-name` -X quit
+```
+
 ### 2. error from matplotlib
 
 [Source](https://raspberrypi.stackexchange.com/questions/38294/error-when-attempting-to-create-python-gui-using-tkinter-no-display-name-and-n)
