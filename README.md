@@ -52,6 +52,18 @@ You want to save image, but you may get `_tkinter.TclError: no display name and 
 export MPLBACKEND="agg"
 ```
 
+### cuda9 not compatible for tensorflow
+
+```
+sudo apt autoremove cuda
+```
+
+use cuda8 instead
+
+```
+sudo apt-get install cuda-8-0
+```
+
 ## Authors
 
 - [Jun Lu](https://github.com/junlulocky)
