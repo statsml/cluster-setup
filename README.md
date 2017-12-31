@@ -47,6 +47,8 @@ screen -r `your-preferred-screen-name`
 screen -S  `your-preferred-screen-name` -X quit
 ```
 
+[Alternative]: tmux
+
 ### 2. error from matplotlib
 
 [Source](https://raspberrypi.stackexchange.com/questions/38294/error-when-attempting-to-create-python-gui-using-tkinter-no-display-name-and-n)
