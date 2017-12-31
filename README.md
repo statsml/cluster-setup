@@ -47,7 +47,7 @@ screen -r `your-preferred-screen-name`
 screen -S  `your-preferred-screen-name` -X quit
 ```
 
-[Alternative]: tmux
+- [Alternative]: tmux
 
 ### 2. error from matplotlib
 
