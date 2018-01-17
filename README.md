@@ -71,6 +71,46 @@ use cuda8 instead
 sudo apt-get install cuda-8-0
 ```
 
+### 4. split data larger than 25MB to update to GitHub
+
+- help
+
+```
+man split
+```
+
+- Command
+```
+split --byte="20M" `file_name` `prefix for the splitted file`
+```
+
+or
+```
+split -b 20m `file_name` `prefix for the splitted file`
+```
+
+e.g.
+```
+split --byte="25M" `largefile` `part`
+```
+
+
+- post process
+move the spliited files to a folder `file_name`
+```
+mv prefix* `./file_name`
+```
+
+e.g.
+```
+mv part* `./largefile`
+```
+
+- merge
+```
+cat * > `file_name`
+```
+
 ## Authors
 
 - [Jun Lu](https://github.com/junlulocky)
